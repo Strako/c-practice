@@ -10,7 +10,7 @@ The book follows the 80/20 rule: learn 80% of the language in 20% of the time. I
 
 Each topic below is (or will be) implemented as a folder in this repository. Some folders might group related topics for simplicity.
 
-1. [Introduction to C](./01-introduction/)
+1. Introduction to C
 2. [Variables and Types, Constants](./02-variables-types-constants/)
 3. [Operators](./03-operators/)
 4. [Conditionals](./04-conditionals/)
