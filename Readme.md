@@ -38,7 +38,7 @@ Each topic below is (or will be) implemented as a folder in this repository. Som
 
 - Practice and solidify C programming concepts by writing small, focused programs.
 - Organize code examples into logically separated folders.
-- Prepare for interviews, technical assessments, or just deepen understanding of C.
+- Prepare myself to understand more robust C code and start making homebrew for retro hardware or embeded systems.
 
 ---
 
@@ -53,3 +53,10 @@ Example:
 cd 05-loops
 gcc loops.c -o loops
 ./loops
+```
+## 🧪 How to run all files imported on mian.c\
+- From the root folder do the following:
+```bash
+make
+```
+ 
