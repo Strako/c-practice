@@ -34,7 +34,7 @@ Each topic below is (or will be) implemented as a folder in this repository. Som
 
 ---
 
-## 🧪 Purpose
+## 🎯 Purpose
 
 - Practice and solidify C programming concepts by writing small, focused programs.
 - Organize code examples into logically separated folders.
@@ -54,7 +54,7 @@ cd 05-loops
 gcc loops.c -o loops
 ./loops
 ```
-## 🧪 How to run all files imported on mian.c
+## 💻 How to run all files imported on mian.c
 - The Makefile placed in the root folde rof the project contains wildcard to recursively compile one of each .c files in the project, just do:
 ```bash
 make
