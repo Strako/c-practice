@@ -1,6 +1,6 @@
 # C Practice Repository: Based on *The C Beginner's Handbook* by Flavio Copes
 
-Welcome! This repository is designed to help me practice and reinforce my understanding of the **C programming language** by working through the core topics covered in [*The C Beginner's Handbook*](https://www.freecodecamp.org/news/the-c-beginners-handbook/#heading-constants), written by **Flavio Copes**.
+Welcome! This repository is designed to help me practice and reinforce my understanding of the **C programming language** by working through the core topics covered in [*The C Beginner's Handbook*](https://www.freecodecamp.org/news/the-c-beginners-handbook/), written by **Flavio Copes**.
 
 The book follows the 80/20 rule: learn 80% of the language in 20% of the time. It focuses on practical, essential concepts without overwhelming with edge cases or overly advanced topics.
 
