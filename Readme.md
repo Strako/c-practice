@@ -54,7 +54,7 @@ cd 05-loops
 gcc loops.c -o loops
 ./loops
 ```
-## 💻 How to run all files imported on mian.c
+## 💻 How to run all files imported on /main.c
 - The Makefile placed in the root folde rof the project contains wildcard to recursively compile one of each .c files in the project, just do:
 ```bash
 make
