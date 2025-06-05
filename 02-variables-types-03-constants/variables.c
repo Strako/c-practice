@@ -2,14 +2,19 @@
 //constant declared with define syntax (not use costant keyword or explicit type)
 #define JOSE_NAME "Jose ricardo carmona sanchez"
 
-int main(void){
+void variablesExample(void){
     //constant declared with keyword and explicit type
     const char ARMANDO_NAME[] = "Armando isai hernandez ibarra";
     
-    printf("First constant: %s \nSecond constant (define) %s\n", ARMANDO_NAME, JOSE_NAME);
 
     float age = 18;
     age = age*2.5;
+
+    printf("02-variables and types, 03-constants\n\n");
+
+    printf("First constant: %s \nSecond constant (define) %s\n", ARMANDO_NAME, JOSE_NAME);
+
+    printf("Age: %f\n", age);
 
     printf("Size of char = %lu bytes \n", sizeof(char));
     printf("Size of int = %lu bytes \n", sizeof(int));
