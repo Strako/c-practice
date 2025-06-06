@@ -18,12 +18,12 @@ char* getGrade(int score, int lowLimit, int highLimit, const char grade[], char 
 char* conditionalsExample(int score, int attendance){
     int gradesRangeArray[10] = {A_LOW,A_HIGH, B_LOW, B_HIGH, C_LOW, C_HIGH, D_LOW, D_HIGH, E_LOW, E_HIGH};
     const char *gradesArray[5];
-    const int length = sizeof(gradesArray);
-    gradesArray[0] = "Grade A\0";
-    gradesArray[1] = "Grade B\0";
-    gradesArray[2] = "Grade C\0";
-    gradesArray[3] = "Grade D\0";
-    gradesArray[4] = "Grade E\0";
+    const int length = sizeof(gradesArray) / sizeof(gradesArray[0]);
+    gradesArray[0] = "Grade A";
+    gradesArray[1] = "Grade B";
+    gradesArray[2] = "Grade C";
+    gradesArray[3] = "Grade D";
+    gradesArray[4] = "Grade E";
 
     char *result = malloc(23 * sizeof(char));
     if(result == NULL){
@@ -42,7 +42,7 @@ char* conditionalsExample(int score, int attendance){
     const bool haveMinimumScore = fixedScore < 40 ? true : false;
 
     if(!haveMinimumAttendance || haveMinimumScore){
-        const char *failedMessage = haveMinimumAttendance ? "Fail due to attendance\0" : "Fail due to low score\0";
+        const char *failedMessage = haveMinimumAttendance ? "Fail due to attendance" : "Fail due to low score";
         strcpy(result, failedMessage);
         return result;
     }
@@ -58,7 +58,9 @@ char* conditionalsExample(int score, int attendance){
 };
 
 void conditionsExampleResult(int score, int attendance){
-    printf(conditionalsExample(score, attendance));
+    char *result = conditionalsExample(score, attendance);
+    printf("%s\n",result);
+    free(result);
 }
 
     
