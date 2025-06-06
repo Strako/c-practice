@@ -10,8 +10,6 @@ void variablesExample(void){
     float age = 18;
     age = age*2.5;
 
-    printf("02-variables and types, 03-constants\n\n");
-
     printf("First constant: %s \nSecond constant (define) %s\n", ARMANDO_NAME, JOSE_NAME);
 
     printf("Age: %f\n", age);

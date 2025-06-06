@@ -44,7 +44,7 @@ void operatorsExample(void){
 
     const float result = a + ((b*c)/d) - e;
     printf("%f\n%f\n%f\n%f\n%f\n",a,b,c,d,e);
-    printf("04-Operators\n\n");
+
     printf("first operation = %.2f\n"
         "second operation = %.2f\n"
         "third operation = %.2f\n"

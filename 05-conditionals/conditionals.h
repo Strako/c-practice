@@ -1,0 +1,1 @@
+const char* conditionalsExample(int score, int attendance);
