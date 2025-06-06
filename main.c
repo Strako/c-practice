@@ -17,6 +17,6 @@ int main(void){
 
     printSeparator();
     printf("05-Conditionals\n\n");
-    conditionalsExample(65, 92);
+    conditionsExampleResult(65, 92);
     testConditionalsExample();
 } 

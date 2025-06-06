@@ -4,7 +4,7 @@
 #include "../../utils/utils.h"
 
 void testConditionalsExample(void){
-    printf("05-Conditionals-test\n\n");
+    printf("\n\n05-Conditionals-test\n");
 
     const char *result = conditionalsExample(1,10);
     const char expectedResultA[] = "Grade A";
