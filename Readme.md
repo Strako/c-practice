@@ -10,26 +10,26 @@ The book follows the 80/20 rule: learn 80% of the language in 20% of the time. I
 
 Each topic below is (or will be) implemented as a folder in this repository. Some folders might group related topics for simplicity.
 
-1. Introduction to C
-2. [Variables and Types, Constants](./02-variables-types-03-constants/)
-3. [Operators](./04-operators/)
-4. [Conditionals](./05-conditionals/)
-5. [Loops](./06-loops/)
-6. [Arrays](./07-arrays/)
-7. [Strings](./08-strings/)
-8. [Pointers](./09-pointers/)
-9. [Functions](./10-functions/)
-10. [Input and Output](./11-input-output/)
-11. [Variable Scope](./12-variable-scope/)
-12. [Static Variables](./13-static-variables/)
-13. [Global Variables](./14-global-variables/)
-14. [Type Definitions](./15-type-definitions/)
-15. [Enumerated Types](./16-enums/)
-16. [Structures](./17-structures/)
-17. [Command Line Parameters](./18-command-line-args/)
-18. [Header Files](./19-header-files/)
-19. [The Preprocessor](./20-preprocessor/)
-20. [Conclusion](./21-conclusion/)
+1.      Introduction to C
+2.  ✔️ - [Variables and Types, Constants](./02-variables-types-03-constants/)
+3.  ✔️ - [Operators](./04-operators/)
+4.  🖝 - [Conditionals](./05-conditionals/)
+5.      [Loops](./06-loops/)
+6.      [Arrays](./07-arrays/)
+7.      [Strings](./08-strings/)
+8.      [Pointers](./09-pointers/)
+9.      [Functions](./10-functions/)
+10.     [Input and Output](./11-input-output/)
+11.     [Variable Scope](./12-variable-scope/)
+12.     [Static Variables](./13-static-variables/)
+13.     [Global Variables](./14-global-variables/)
+14.     [Type Definitions](./15-type-definitions/)
+15.     [Enumerated Types](./16-enums/)
+16.     [Structures](./17-structures/)
+17.     [Command Line Parameters](./18-command-line-args/)
+18.     [Header Files](./19-header-files/)
+19.     [The Preprocessor](./20-preprocessor/)
+20.     [Conclusion](./21-conclusion/)
 
 
 ---
