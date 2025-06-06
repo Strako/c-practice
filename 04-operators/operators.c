@@ -1,5 +1,8 @@
 #include "stdio.h"
 #include "stdbool.h"
+#include "stdlib.h"
+#include "time.h"
+
 const int  OFFSET_TO_MAX_VALUE = 1;\
 const bool IS_DECIMAL = true;
 const bool IS_NOT_DECIMAL = false;
@@ -15,6 +18,8 @@ int getRandon(int mminValue, int maxValue, bool isDecimal){
     
     srand(time(NULL));
     float randomNumber =  (rand() % roof) - offset;
+
+    printf("pre random number////////////////%f\n",randomNumber);
 
     if(isDecimal){
         const float decimalPart = getRandon(0,100, IS_NOT_DECIMAL) / 100;
@@ -38,13 +43,13 @@ void operatorsExample(void){
     const float fourthOperation = thirdOperation - e;
 
     const float result = a + ((b*c)/d) - e;
-
+    printf("%f\n%f\n%f\n%f\n%f\n",a,b,c,d,e);
     printf("04-Operators\n\n");
-    printf("first operation = %f\n"
-        "second operation = %f\n"
-        "third operation = %f\n"
-        "fourth operation = %f\n"
-        "assert result = %f\n",
+    printf("first operation = %.2f\n"
+        "second operation = %.2f\n"
+        "third operation = %.2f\n"
+        "fourth operation = %.2f\n"
+        "assert result = %.2f\n",
         firstOperation,
         secondOperation,
         thirdOperation,
