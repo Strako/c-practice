@@ -12,7 +12,7 @@ Each topic below is (or will be) implemented as a folder in this repository. Som
 1. Introduction to C
 2. ✔️[Variables and Types, Constants](./02-variables-types-03-constants/)
 3. ✔️[Operators](./04-operators/)
-4. 🖝[Conditionals](./05-conditionals/)
+4. ✔️[Conditionals](./05-conditionals/)
 5.   [Loops](./06-loops/)
 6.   [Arrays](./07-arrays/)
 7.   [Strings](./08-strings/)
@@ -30,7 +30,7 @@ Each topic below is (or will be) implemented as a folder in this repository. Som
 19.  [The Preprocessor](./20-preprocessor/)
 20.  [Conclusion](./21-conclusion/)
 --
-## 🎯 Prpose
+## 🎯 Purpose
 
 - Practice and solidify C programming concepts by writing small, focused programs.
 - Organize code examples into logically separated folders.
